@@ -1,0 +1,12 @@
+<label>TYPE ANYTHING HERE</label>
+        <input id="inputbox" type="textbox" onkeyup="update()">
+        <h1 id="result"></h1>
+
+    <script>
+        function update(){
+        var inputele=document.getElementById("inputbox").value;
+        var result=document.getElementById("result");
+        result.textContent=inputele;
+        }
+
+    </script>
